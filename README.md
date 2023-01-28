@@ -5,4 +5,5 @@ Live Link - <a href="https://easy-ops-assignment.vercel.app/">easy-ops-assignmen
 - HTML, CSS, JQUERY, JavaScript
 
 ### Preview
-![image](https://user-images.githubusercontent.com/75376059/215269522-1f884653-e4a5-4970-a431-519e48c7f478.png)
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75376059/215270276-82b8875a-2fc7-4778-80f6-a6a3103e3232.gif)
