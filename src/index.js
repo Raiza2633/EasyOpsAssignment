@@ -76,8 +76,8 @@ $("#search").change(function (e) {
   if (value.length > 0) {
     const tempUserData = userData.filter((data) => {
       return (
-        data.firstName.includes(value) ||
-        data.lastName.includes(value) ||
+        data.firstName.toLowerCase().includes(value.toLowerCase()) ||
+        data.lastName.toLowerCase().includes(value.toLowerCase()) ||
         data.phone.includes(value)
       );
     });
