@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  margin: auto;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background: #f0f0f0;
+}
+form div {
+  width: 100%;
+}
+form label {
+  padding: 0.5rem 0;
+}
+input {
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid;
+  border-radius: 5px;
+}
+form div input#firstName {
+  max-width: 5rem;
+  margin-right: 5px;
+}
+form div input#lastName {
+  max-width: 10rem;
+  margin-left: 5px;
+}
+.name-input-container {
+  display: flex;
+  justify-content: center;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin-top: 1rem;
+  background-color: lightgreen;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+table {
+  max-width: 84%;
+  border: 1px solid;
+  margin: 1rem auto;
+  border-collapse: collapse;
+  padding: 0;
+}
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 2rem;
+}
+thead {
+  background: grey;
+  color: white;
+}
+.table-row {
+  background: white;
+  color: black;
+}
+.table-row:hover {
+  background: lightgrey;
+}
+#delete,
+#nameColumn {
+  cursor: pointer;
+}
+#delete:hover {
+  background: red;
+  color: white;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.search {
+  margin: auto;
+  outline: none;
+}
