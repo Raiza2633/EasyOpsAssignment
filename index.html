@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <form id="myForm">
+      <label>Person's Name</label>
+      <div class="name-input-container">
+        <input id="firstName" type="text" placeholder="First" required />
+        <input id="lastName" type="text" placeholder="Last" required />
+      </div>
+      <label>Contact Number</label>
+      <input id="phone" type="number" required />
+      <div class="button-container">
+        <button>Save</button>
+      </div>
+    </form>
+    <div class="search-container">
+      <input class="search" type="text" id="search" placeholder="Search" />
+    </div>
+    <table>
+      <thead>
+        <td>S.no</td>
+        <td id="nameColumn">Name</td>
+        <td>Contact</td>
+        <td>Delete</td>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
